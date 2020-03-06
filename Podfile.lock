@@ -1,0 +1,16 @@
+PODS:
+  - NKVPhonePicker (2.1.0)
+
+DEPENDENCIES:
+  - NKVPhonePicker
+
+SPEC REPOS:
+  trunk:
+    - NKVPhonePicker
+
+SPEC CHECKSUMS:
+  NKVPhonePicker: 28ea127fb6a9c380e34dc1c56d38afc6fa09f143
+
+PODFILE CHECKSUM: 43df03b42f25bde963246435b82db147a0143e82
+
+COCOAPODS: 1.8.4

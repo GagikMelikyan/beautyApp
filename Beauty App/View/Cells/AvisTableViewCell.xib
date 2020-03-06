@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Regular.ttf">
+            <string>Lato-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="AvisTableViewCell" selectionStyle="default" indentationWidth="10" rowHeight="160" id="KGk-i7-Jjw" customClass="AvisTableViewCell" customModule="Beauty_App" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="369" height="160"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="369" height="160"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NxY-uB-roV" customClass="GradientView" customModule="Beauty_App" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="369" height="18"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="Lse-IU-Shz"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="firstColor">
+                                <color key="value" red="0.87040732774708873" green="0.87902522208121825" blue="0.87902522208121825" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="isHorizontal" value="NO"/>
+                            <userDefinedRuntimeAttribute type="color" keyPath="secondColor">
+                                <color key="value" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i6P-98-D2j">
+                        <rect key="frame" x="14" y="9" width="16" height="16"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="i6P-98-D2j" secondAttribute="height" id="ll6-f2-ab6"/>
+                            <constraint firstAttribute="width" constant="16" id="oMr-zB-8xB"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.transform.rotation.z">
+                                <real key="value" value="0.75"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Und-zX-XRe">
+                        <rect key="frame" x="0.0" y="18" width="369" height="142"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SG Coiffure Mixte" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hd3-nM-kiE">
+                                <rect key="frame" x="14" y="16.5" width="95" height="14"/>
+                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="12"/>
+                                <color key="textColor" red="0.63529411764705879" green="0.63529411764705879" blue="0.63529411764705879" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SG Coiffure Mixte" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y93-xe-mGd">
+                                <rect key="frame" x="124" y="15" width="110.5" height="17"/>
+                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="14"/>
+                                <color key="textColor" red="0.63529411764705879" green="0.63529411764705879" blue="0.63529411764705879" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Merci !" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="93w-GV-cxg">
+                                <rect key="frame" x="14" y="40.5" width="43.5" height="17"/>
+                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="93w-GV-cxg" firstAttribute="top" secondItem="hd3-nM-kiE" secondAttribute="bottom" constant="10" id="61s-Hc-eLx"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Y93-xe-mGd" secondAttribute="trailing" constant="10" id="Bjm-Oi-Jfq"/>
+                            <constraint firstItem="hd3-nM-kiE" firstAttribute="leading" secondItem="Und-zX-XRe" secondAttribute="leading" constant="14" id="NVY-Od-yYf"/>
+                            <constraint firstItem="93w-GV-cxg" firstAttribute="leading" secondItem="hd3-nM-kiE" secondAttribute="leading" id="XRG-w5-H9a"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="93w-GV-cxg" secondAttribute="trailing" constant="10" id="Zwb-Gd-FTg"/>
+                            <constraint firstItem="hd3-nM-kiE" firstAttribute="centerY" secondItem="Y93-xe-mGd" secondAttribute="centerY" id="cVA-HP-UHa"/>
+                            <constraint firstItem="Y93-xe-mGd" firstAttribute="leading" secondItem="hd3-nM-kiE" secondAttribute="trailing" constant="15" id="tAY-T7-Uhg"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="93w-GV-cxg" secondAttribute="bottom" constant="15" id="tX8-dg-QJh"/>
+                            <constraint firstItem="Y93-xe-mGd" firstAttribute="top" secondItem="Und-zX-XRe" secondAttribute="top" constant="15" id="z13-Yq-Bh9"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstItem="Und-zX-XRe" firstAttribute="top" secondItem="NxY-uB-roV" secondAttribute="bottom" id="Alb-wb-Ewk"/>
+                    <constraint firstItem="Und-zX-XRe" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="F2s-GC-iFA"/>
+                    <constraint firstAttribute="trailing" secondItem="Und-zX-XRe" secondAttribute="trailing" id="FFz-ks-3Bv"/>
+                    <constraint firstItem="i6P-98-D2j" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="9" id="G4P-go-nfr"/>
+                    <constraint firstItem="NxY-uB-roV" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="WYp-IV-g5n"/>
+                    <constraint firstAttribute="trailing" secondItem="NxY-uB-roV" secondAttribute="trailing" id="WqB-Fd-98p"/>
+                    <constraint firstAttribute="bottom" secondItem="Und-zX-XRe" secondAttribute="bottom" id="byp-Qq-PR3"/>
+                    <constraint firstItem="i6P-98-D2j" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="14" id="eJR-A8-Fbn"/>
+                    <constraint firstItem="NxY-uB-roV" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="jvV-q1-bJT"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="173.18840579710147" y="130.58035714285714"/>
+        </tableViewCell>
+    </objects>
+</document>
